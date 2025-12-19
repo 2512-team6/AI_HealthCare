@@ -22,7 +22,7 @@ CORS(
     app,
     resources={
         r"/api/*": {
-            "origins": ["http://localhost:3000"]
+            "origins": ["http://localhost:3000", "https://web-ai-healthcare-front-mjcarnfi091d2bc8.sel3.cloudtype.app"]
         }
     }
 )
